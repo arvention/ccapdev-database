@@ -27,5 +27,6 @@ This repository will help you integrate MongoDB to your web applications.
 ```
 git clone https://github.com/arvention/ccapdev-database
 ```
-
-
+2. Open Command Prompt
+3. Navigate to the project folder - the folder containing the contents of the repository.
+4. Run `npm install`.
