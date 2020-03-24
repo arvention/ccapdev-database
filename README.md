@@ -46,4 +46,17 @@ git clone https://github.com/arvention/ccapdev-database
 | Tyrion   | Lannister | TheHalfman      | Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you                                                                                                                                          |
 | Daenerys | Targaryen | BreakerOfChains | Lannister, Targaryen, Baratheon, Stark, Tyrell – they’re all just spokes on a wheel. This one’s on top, then that one’s on top, and on and on it spins, crushing those on the ground. I’m not going to stop the wheel. I’m going to break the wheel.         |
 
+Upon running the command, your Command Prompt should display the following statements:
+```
+Database created!
+1 document inserted
+1 document inserted
+1 document inserted
+1 document inserted
+1 document inserted
+1 document inserted
+1 document inserted
+1 document inserted
+```
+
 Feel free to open the file and read through the in-line comments to understand its content. This file uses the methods in the file [`models/db.js`](https://github.com/arvention/ccapdev-database/blob/master/models/db.js) to perform CRUD (Create, Read, Update, Delete) operations on the database.
