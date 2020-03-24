@@ -3,4 +3,4 @@
 This folder contains css files.
 
 ### Contents:
-- profile.css - Stylesheet for profile.hbs
+- profile.css - Stylesheet for views/profile.hbs
