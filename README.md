@@ -8,3 +8,5 @@ To get started, follow the steps below to install MongoDB:
 ```
 https://www.mongodb.com/download-center/community
 ```
+2. Open the file.
+
