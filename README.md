@@ -11,10 +11,7 @@ This repository will help you integrate MongoDB to your web applications.
 - [views](https://github.com/arvention/ccapdev-database/tree/master/views) - This folder contains all hbs files to be rendered when requested from the server.
 
 ## To get started, follow the steps below to install MongoDB:
-1. Download MongoDB Community Server from this link:
-```
-[https://www.mongodb.com/download-center/community](https://www.mongodb.com/download-center/community)
-```
+1. Download MongoDB Community Server from this [here](https://www.mongodb.com/download-center/community).
 2. Open the file.
 3. Click Next.
 4. Read and accept the terms in license agreement.
