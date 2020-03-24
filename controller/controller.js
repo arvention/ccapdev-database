@@ -5,13 +5,13 @@ const db = require('../models/db.js');
 // a client requests for a certain path in the server
 const controller = {
 
-    // executed when the client sends a HTTP GET request `/favicon.ico`
+    // executed when the client sends an HTTP GET request `/favicon.ico`
     // as defined in `../routes/routes.js`
     getFavicon: function (req, res) {
         res.status(204);
     },
 
-    // executed when the client sends a HTTP GET request `/:username`
+    // executed when the client sends an HTTP GET request `/:username`
     // as defined in `../routes/routes.js`
     getProfile: function (req, res) {
 
