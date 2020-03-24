@@ -3,6 +3,13 @@ MongoDB Tutorial for CCAPDEV1920T2
 
 This repository will help you integrate MongoDB to your web applications.
 
+## Contents:
+- controllers - This folder contains files which describes the callback function for a given client request.
+- models - This folder contains files for database modeling and access.
+- public - This folder contains static assets such as css, js, and image files.
+- routes - This folder contains files which describes the response of the server for each HTTP method request to a specific path in the server.
+- views - This folder contains all hbs files to be rendered when requested from the server.
+
 ## To get started, follow the steps below to install MongoDB:
 1. Download MongoDB Community Server from this link:
 ```
@@ -17,3 +24,4 @@ https://www.mongodb.com/download-center/community
 8. Click Install.
 9. Wait for installation to finish.
 10. Once complete, you have successfully completed the installation of MongoDB.
+
