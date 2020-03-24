@@ -76,3 +76,5 @@ app listening at port 9090
 - Study the callback functions defined in [`controllers/controller.js`](https://github.com/arvention/ccapdev-database/blob/master/controllers/controller.js). These functions are called when a client requests for a specific defined path in our server.
 
 All of these mentioned files are properly documented so you might want to open them to understand their content more.
+
+8. Now, upon reading up on the inline documentation of the code, how do we display a certain profile from the database? We have to match the path `/:username`, where `username` is the username of a document in the collection `profiles`. So to display the profile of Ned Stark, we have to open a client (in this case, a browser), the go to `https://localhost:9090/LordHandStark`.
