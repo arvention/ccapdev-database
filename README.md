@@ -68,6 +68,11 @@ Upon understanding the code, you may now add more statements to add more documen
 app listening at port 9090
 ```
 
-7. Based on the description above, this web application displays the profile of a certain user stored in the database based on their username provided as parameter in the URL requested by the client.
+7. Based on the description above, this web application displays the profile of a certain user stored in the database based on their username provided as parameter in the URL requested by the client. To do this, we have to study the following files:
 
-- To do this, we need to have an `hbs` file which will be rendered with details from the database. Go to [`views/profile.hbs`](https://github.com/arvention/ccapdev-database/blob/master/views/profile.hbs) and study its content.
+- We need to have an `hbs` file which will be rendered with details from the database. Go to [`views/profile.hbs`](https://github.com/arvention/ccapdev-database/blob/master/views/profile.hbs) and study the needed values to be rendered in the profile page.
+- Check [`models\db.js`](https://github.com/arvention/ccapdev-database/blob/master/models/db.js) which contains necessary database functions for CRUD (Create, Read, Update, Delete) operations. These methods were discussed in the video lecture. You may read through the inline comments in the [`file`](https://github.com/arvention/ccapdev-database/blob/master/models/db.js) to review.
+- Check [`routes\routes.js`](https://github.com/arvention/ccapdev-database/blob/master/routes/routes.js) which connects a specific callback function defined in [`controllers/controller.js`](https://github.com/arvention/ccapdev-database/blob/master/controllers/controller.js) to its corresponding path and HTTP method.
+- Study the callback functions defined in [`controllers/controller.js`](https://github.com/arvention/ccapdev-database/blob/master/controllers/controller.js). These functions are called when a client requests for a specific defined path in our server.
+
+All of these mentioned files are properly documented so you might want to open them to understand their content more.
