@@ -60,3 +60,10 @@ Database created!
 ```
 
 Feel free to open the file and read through the in-line comments to understand its content. This file uses the methods in the file [`models/db.js`](https://github.com/arvention/ccapdev-database/blob/master/models/db.js) to perform CRUD (Create, Read, Update, Delete) operations on the database.
+
+Upon understanding the code, you may now add more statements to add more documents in the collection `profiles`.
+
+6. Since we have properly initialized our database with documents, we may now run our server. To do this, we run the command `node index.js`. Upon running the command, your Command Prompt should display the following statement:
+```
+app listening at port 9090
+```
