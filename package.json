@@ -1,0 +1,24 @@
+{
+  "name": "ccapdev-database",
+  "version": "1.0.0",
+  "description": "MongoDB Tutorial for CCAPDEV1920T2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvention/ccapdev-database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvention/ccapdev-database/issues"
+  },
+  "homepage": "https://github.com/arvention/ccapdev-database#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "mongodb": "^3.5.5"
+  }
+}
