@@ -2,5 +2,5 @@
 
 This folder contains files for database modeling and access.
 
-Contents:
+### Contents:
 - db.js - contains necessary database functions for CRUD (Create, Read, Update, Delete) operations.
