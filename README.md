@@ -77,4 +77,7 @@ app listening at port 9090
 
 All of these mentioned files are properly documented so you might want to open them to understand their content more.
 
-8. Now, upon reading up on the inline documentation of the code, how do we display a certain profile from the database? We have to match the path `/:username`, where `username` is the username of a document in the collection `profiles`. So to display the profile of Ned Stark, we have to open a client (in this case, a browser), the go to `https://localhost:9090/LordHandStark`.
+8. Now, upon reading up on the inline documentation of the code, how do we display a certain profile from the database? We have to match the path `/:username`, where `username` is the username of a document in the collection `profiles`. So to display the profile of Ned Stark, we have to open a client (in this case, a browser), the go to `http://localhost:9090/LordHandStark`.
+
+It should display a web page like below:
+![alt text](https://github.com/arvention/ccapdev-database/blob/master/profile-LordHandStark.png "Ned Stark | Profile")
