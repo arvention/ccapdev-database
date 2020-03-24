@@ -12,6 +12,8 @@ Each folder and file in this repository is properly documented. You may read the
 - [public](https://github.com/arvention/ccapdev-database/tree/master/public) - This folder contains static assets such as css, js, and image files.
 - [routes](https://github.com/arvention/ccapdev-database/tree/master/routes) - This folder contains files which describes the response of the server for each HTTP method request to a specific path in the server.
 - [views](https://github.com/arvention/ccapdev-database/tree/master/views) - This folder contains all hbs files to be rendered when requested from the server.
+- [add_data.js](https://github.com/arvention/ccapdev-database/blob/master/add_data.js) - This script creates the database and inserts 8 user details in the collection `profiles`.
+- [index.js](https://github.com/arvention/ccapdev-database/blob/master/index.js) - The main entry point of the web application.
 
 ## To get started, follow the steps below to install MongoDB:
 1. Download MongoDB Community Server from [here](https://www.mongodb.com/download-center/community).
