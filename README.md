@@ -69,4 +69,5 @@ app listening at port 9090
 ```
 
 7. Based on the description above, this web application displays the profile of a certain user stored in the database based on their username provided as parameter in the URL requested by the client.
+
 ...To do this, we need to have an `hbs` file which will be rendered with details from the database.
