@@ -2,16 +2,16 @@
 // import module `express`
 const express = require('express');
 
-// import module routes from `../controller/controller.js`
-const controller = require('../controller/controller.js')
+// import module routes from `../controllers/controller.js`
+const controller = require('../controllers/controller.js')
 
 const app = express();
 
-// execute function getFavicon() as defined in object controller in `../controller/controller.js`
+// execute function getFavicon() as defined in object controller in `../controllers/controller.js`
 // when a client sends an HTTP GET request for `/favicon.ico`
 app.get('/favicon.ico', controller.getFavicon);
 
-// execute function getFavicon() as defined in object controller in `../controller/controller.js`
+// execute function getFavicon() as defined in object controller in `../controllers/controller.js`
 // when a client sends an HTTP GET request for `/favicon.ico`
 app.get('/:username', controller.getProfile);
 
