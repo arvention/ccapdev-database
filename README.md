@@ -30,4 +30,4 @@ git clone https://github.com/arvention/ccapdev-database
 2. Open Command Prompt
 3. Navigate to the project folder - the folder containing the contents of the cloned or downloaded repository.
 4. Run the command `npm install` to initialize and install all necessary modules used in the project.
-5. Run the command `node [add_data.js](https://github.com/arvention/ccapdev-database/blob/master/add_data.js)`.
+5. Run the command `node add_data.js`
