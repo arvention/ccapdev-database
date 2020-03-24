@@ -1,7 +1,7 @@
 # ccapdev-database
 MongoDB Tutorial for CCAPDEV1920T2
 
-This repository will help you integrate MongoDB to your web applications.
+This repository will help you integrate MongoDB to your web applications. This web application displays the profile of a certain user stored in the database based on their username provided as parameter in the URL requested by the client.
 
 ## Contents:
 
@@ -67,3 +67,6 @@ Upon understanding the code, you may now add more statements to add more documen
 ```
 app listening at port 9090
 ```
+
+7. Based on the description above, this web application displays the profile of a certain user stored in the database based on their username provided as parameter in the URL requested by the client.
+...To do this, we need to have an `hbs` file which will be rendered with details from the database.
