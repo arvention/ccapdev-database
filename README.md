@@ -22,3 +22,10 @@ This repository will help you integrate MongoDB to your web applications.
 9. Wait for installation to finish.
 10. Once complete, you have successfully completed the installation of MongoDB.
 
+## Follow the steps below to set-up and study this repository.
+1. Clone the repository either using this command:
+```
+git clone https://github.com/arvention/ccapdev-database
+```
+
+or by downloading the contents of the repository [here](https://github.com/arvention/ccapdev-database/archive/master.zip).
