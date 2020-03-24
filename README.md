@@ -4,6 +4,9 @@ MongoDB Tutorial for CCAPDEV1920T2
 This repository will help you integrate MongoDB to your web applications.
 
 ## Contents:
+
+Each folder and file in this repository is properly documented. You may read the `README.md` file of each folder to understand its content. You may also read the inline comments of each file explaining the statements line-per-line.
+
 - [controllers](https://github.com/arvention/ccapdev-database/tree/master/controllers) - This folder contains files which describes the callback function for a given client request.
 - [models](https://github.com/arvention/ccapdev-database/tree/master/models) - This folder contains files for database modeling and access.
 - [public](https://github.com/arvention/ccapdev-database/tree/master/public) - This folder contains static assets such as css, js, and image files.
