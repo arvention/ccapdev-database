@@ -81,3 +81,5 @@ All of these mentioned files are properly documented so you might want to open t
 
 It should display a web page like below:
 ![alt text](https://github.com/arvention/ccapdev-database/blob/master/profile-LordHandStark.png "Ned Stark | Profile")
+
+9. Upon understanding the whole web application, try now to access other profiles using their username :sunglasses:
