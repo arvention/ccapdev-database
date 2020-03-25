@@ -12,7 +12,7 @@ const app = express();
 app.get('/favicon.ico', controller.getFavicon);
 
 // execute function getFavicon() as defined in object controller in `../controllers/controller.js`
-// when a client sends an HTTP GET request for `/favicon.ico`
+// when a client sends an HTTP GET request for `/:username` where `username` is a parameter
 app.get('/:username', controller.getProfile);
 
 // exports the object `app` (defined above) when another script exports from this file
