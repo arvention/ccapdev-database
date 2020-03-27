@@ -2,7 +2,7 @@
 // import module `express`
 const express = require('express');
 
-// import module routes from `../controllers/controller.js`
+// import module controller from `../controllers/controller.js`
 const controller = require('../controllers/controller.js')
 
 const app = express();
