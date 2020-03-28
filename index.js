@@ -15,7 +15,7 @@ app.set('view engine', 'hbs');
 // such as css, js, and image files
 app.use(express.static('public'));
 
-// define the paths contained in `routes/routes.js`
+// define the paths contained in `./routes/routes.js`
 app.use('/', routes);
 
 // binds the server to a specific port
