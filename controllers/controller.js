@@ -1,8 +1,8 @@
 // import module from `../models/db.js`
 const db = require('../models/db.js');
 
-// defines an object which contains functions executed as callback when
-// a client requests for a certain path in the server
+// defines an object which contains functions executed as callback
+// when a client requests for a certain path in the server
 const controller = {
 
     // executed when the client sends an HTTP GET request `/favicon.ico`
