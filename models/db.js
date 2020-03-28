@@ -15,7 +15,7 @@ const options = { useUnifiedTopology: true };
 // defines an object which contains necessary database functions
 const database = {
 
-    // function to create a database
+    // creates database
     createDatabase: function() {
         client.connect(url, options, function (err, db) {
             if(err) throw err;
@@ -24,7 +24,7 @@ const database = {
         });
     },
 
-    // function to create collection `collection`
+    // creates collection `collection`
     createCollection: function(collection) {
         client.connect(url, options, function(err, db) {
             if(err) throw err;
@@ -37,7 +37,7 @@ const database = {
         });
     },
 
-    // function to insert document `doc` to collection `collection`
+    // inserts document `doc` to collection `collection`
     insertOne: function(collection, doc) {
         client.connect(url, options, function (err, db) {
             if(err) throw err;
@@ -50,7 +50,7 @@ const database = {
         });
     },
 
-    // function to insert array of documents `docs` to collection `collection`
+    // inserts array of documents `docs` to collection `collection`
     insertMany: function(collection, docs) {
         client.connect(url, options, function (err, db) {
             if(err) throw err;
@@ -63,9 +63,10 @@ const database = {
         });
     },
 
-    // function to search for a single document in the collection `collection`
+    // searches for a single document in the collection `collection`
     // based on the contents of object `query`
-    // callback function is called when the database has finished the execution of findOne() function
+    // callback function is called
+    // when the database has finished the execution of findOne() function
     findOne: function(collection, query, callback) {
         client.connect(url, options, function (err, db) {
             if(err) throw err;
@@ -78,9 +79,10 @@ const database = {
         });
     },
 
-    // function to search for multiple documents in the collection `collection`
+    // searches for multiple documents in the collection `collection`
     // based on the contents of object `query`
-    // callback function is called when the database has finished the execution of findMany() function
+    // callback function is called
+    // when the database has finished the execution of findMany() function
     findMany: function(collection, query, sort=null, projection=null, callback) {
         client.connect(url, options, function (err, db) {
             if(err) throw err;
@@ -94,7 +96,7 @@ const database = {
         });
     },
 
-    // function to delete a documents in the collection `collection`
+    // deletes a single document in the collection `collection`
     // based on the object `filter`
     deleteOne: function(collection, filter) {
         client.connect(url, options, function (err, db) {
@@ -108,7 +110,7 @@ const database = {
         });
     },
 
-    // function to delete multiple documents in the collection `collection`
+    // deletes multiple documents in the collection `collection`
     // based on the object `filter`
     deleteMany: function(collection, filter) {
         client.connect(url, options, function (err, db) {
@@ -122,7 +124,7 @@ const database = {
         });
     },
 
-    // function to drop the collection `collection`
+    // drops the collection `collection`
     dropCollection: function(collection) {
         client.connect(url, options, function (err, db) {
             if(err) throw err;
@@ -135,7 +137,7 @@ const database = {
         });
     },
 
-    // function to update the value defined in the object `update`
+    // updates the value defined in the object `update`
     // on a single document in the collection `collection`
     // based on the object `filter`
     updateOne: function(collection, filter, update) {
@@ -150,7 +152,7 @@ const database = {
         });
     },
 
-    // function to update the value defined in the object `update`
+    // updates the value defined in the object `update`
     // on multiple documents in the collection `collection`
     // based on the object `filter`
     updateMany: function(collection, filter, update) {
@@ -166,5 +168,6 @@ const database = {
     }
 }
 
-// exports the object `database` (defined above) when another script exports from this file
+// exports the object `database` (defined above)
+// when another script exports from this file
 module.exports = database;
