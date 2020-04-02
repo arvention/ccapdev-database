@@ -1,19 +1,27 @@
-// This script creates the database
-// and inserts 8 user details in the collection `profiles`
+/*
+    This script creates the database
+    and inserts 8 user details in the collection `profiles`
+*/
 
 // import module from `./models/db.js`
 const db = require('./models/db.js');
 
-// name of the collection (table)
-// to perform CRUD (Create, Read, Update, Delete) operations
+/*
+    name of the collection (table)
+    to perform CRUD (Create, Read, Update, Delete) operations
+*/
 const collection = 'profiles';
 
-// calls the function createDatabase()
-// defined in the `database` object in `./models/db.js`
+/*
+    calls the function createDatabase()
+    defined in the `database` object in `./models/db.js`
+*/
 db.createDatabase();
 
-// creates an object
-// containing first name, last name, username, and bio of a user
+/*
+    creates an object
+    containing first name, last name, username, and bio of a user
+*/
 var user = {
     fName: 'Ned',
     lName: 'Stark',
@@ -24,13 +32,17 @@ var user = {
     But I grew up with soldiers. I learned how to die a long time ago.`
 };
 
-// calls the function insertOne()
-// defined in the `database` object in `./models/db.js`
-// stores the object `user` in the collection (table) `profiles`
+/*
+    calls the function insertOne()
+    defined in the `database` object in `./models/db.js`
+    stores the object `user` in the collection (table) `profiles`
+*/
 db.insertOne(collection, user);
 
-// creates an object
-// containing first name, last name, username, and bio of a user
+/*
+    creates an object
+    containing first name, last name, username, and bio of a user
+*/
 var user = {
     fName: 'Bran',
     lName: 'Stark',
@@ -40,13 +52,17 @@ var user = {
     That's something the Gods can't forgive.`
 };
 
-// calls the function insertOne()
-// defined in the `database` object in `./models/db.js`
-// stores the object `user` in the collection (table) `profiles`
+/*
+    calls the function insertOne()
+    defined in the `database` object in `./models/db.js`
+    stores the object `user` in the collection (table) `profiles`
+*/
 db.insertOne(collection, user);
 
-// creates an object
-// containing first name, last name, username, and bio of a user
+/*
+    creates an object
+    containing first name, last name, username, and bio of a user
+*/
 var user = {
     fName: 'Jon',
     lName: 'Snow',
@@ -56,13 +72,17 @@ var user = {
     Then there are no more answers, only better and better lies.`
 };
 
-// calls the function insertOne()
-// defined in the `database` object in `./models/db.js`
-// stores the object `user` in the collection (table) `profiles`
+/*
+    calls the function insertOne()
+    defined in the `database` object in `./models/db.js`
+    stores the object `user` in the collection (table) `profiles`
+*/
 db.insertOne(collection, user);
 
-// creates an object
-// containing first name, last name, username, and bio of a user
+/*
+    creates an object
+    containing first name, last name, username, and bio of a user
+*/
 var user = {
     fName: 'Sansa',
     lName: 'Stark',
@@ -70,13 +90,17 @@ var user = {
     bio: `I'm A Slow Learner, It's True. But I Learn.`
 };
 
-// calls the function insertOne()
-// defined in the `database` object in `./models/db.js`
-// stores the object `user` in the collection (table) `profiles`
+/*
+    calls the function insertOne()
+    defined in the `database` object in `./models/db.js`
+    stores the object `user` in the collection (table) `profiles`
+*/
 db.insertOne(collection, user);
 
-// creates an object
-// containing first name, last name, username, and bio of a user
+/*
+    creates an object
+    containing first name, last name, username, and bio of a user
+*/
 var user = {
     fName: 'Arya',
     lName: 'Stark',
@@ -84,13 +108,17 @@ var user = {
     bio: `Not today.`
 };
 
-// calls the function insertOne()
-// defined in the `database` object in `./models/db.js`
-// stores the object `user` in the collection (table) `profiles`
+/*
+    calls the function insertOne()
+    defined in the `database` object in `./models/db.js`
+    stores the object `user` in the collection (table) `profiles`
+*/
 db.insertOne(collection, user);
 
-// creates an object
-// containing first name, last name, username, and bio of a user
+/*
+    creates an object
+    containing first name, last name, username, and bio of a user
+*/
 var user = {
     fName: 'Cersei',
     lName: 'Lannister',
@@ -99,13 +127,17 @@ var user = {
     There is no middle ground.`
 };
 
-// calls the function insertOne()
-// defined in the `database` object in `./models/db.js`
-// stores the object `user` in the collection (table) `profiles`
+/*
+    calls the function insertOne()
+    defined in the `database` object in `./models/db.js`
+    stores the object `user` in the collection (table) `profiles`
+*/
 db.insertOne(collection, user);
 
-// creates an object
-// containing first name, last name, username, and bio of a user
+/*
+    creates an object
+    containing first name, last name, username, and bio of a user
+*/
 var user = {
     fName: 'Tyrion',
     lName: 'Lannister',
@@ -114,13 +146,17 @@ var user = {
     Wear it like armor, and it can never be used to hurt you`
 };
 
-// calls the function insertOne()
-// defined in the `database` object in `./models/db.js`
-// stores the object `user` in the collection (table) `profiles`
+/*
+    calls the function insertOne()
+    defined in the `database` object in `./models/db.js`
+    stores the object `user` in the collection (table) `profiles`
+*/
 db.insertOne(collection, user);
 
-// creates an object
-// containing first name, last name, username, and bio of a user
+/*
+    creates an object
+    containing first name, last name, username, and bio of a user
+*/
 var user = {
     fName: 'Daenerys',
     lName: 'Targaryen',
@@ -132,8 +168,10 @@ var user = {
     I’m going to break the wheel.`
 };
 
-// calls the function insertOne()
-// defined in the `database` object in `./models/db.js`
-// stores the object `user` in the collection (table) `profiles`
+/*
+    calls the function insertOne()
+    defined in the `database` object in `./models/db.js`
+    stores the object `user` in the collection (table) `profiles`
+*/
 db.insertOne(collection, user);
 
